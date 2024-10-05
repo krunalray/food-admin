@@ -1,0 +1,91 @@
+/* -----------------------full page loading css ---------------------------*/
+.alc-page-loading .loading {
+    background-image: linear-gradient(to right, #E0E0E0 0%,#CFCFCF 35%,#ADADAD 50%, #CFCFCF 65%,#E0E0E0 100%);
+    background-size: 400% 400%;
+    animation: AnimationLoadingBlock 1.4s ease-out infinite;
+    opacity: 0.4;
+    height: 1rem;
+  }
+  @keyframes AnimationLoadingBlock {
+      0%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  /* ---------end--------------full page loading css ---------------------------*/
+
+  
+/* ----------------Start--------loading--------------------  */
+.alc-loader-container {
+    position: absolute;
+    top: -1rem;
+    left: 5rem;
+    width: 100%;
+    height: 100%;
+}
+.alc-loader {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  right: 50%;
+  width: 9.375rem;
+  height: 9.375rem;
+  margin-left: -7rem;
+  border-radius: 50%;
+  border: 0.188rem solid transparent;
+  border-top-color: #1269F8;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  z-index: 1000 !important;
+}
+.alc-loader:before {
+  content: "";
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  right: .5rem;
+  bottom: .5rem;
+  border-radius: 50%;
+  border: 0.188rem solid transparent;
+  border-top-color: #fff;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+.alc-loader:after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0.938rem;
+  border-radius: 50%;
+  border: 0.188rem solid transparent;
+  border-top-color: #1269F8;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+/* here webkit for crome safari and ms from e explorer */
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/* -----------------------new Loader End ---------------------------*/

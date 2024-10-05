@@ -1,0 +1,104 @@
+@media (max-width: 575px) {
+    /* common */
+    .font-size-lg {
+        font-size: .8rem;
+    }
+    .page-header .d-flex {
+        display: inline-block !important;
+    }
+    /* Dashboard */
+    #header_mobile .card-dropdown {
+        width: 74%;
+    }
+    #header_mobile .component-side-profile .side-block {
+        width: 80%;
+    }
+    #header_mobile .separator-dashed {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .inner-page-header-left {
+        margin-left: 0;
+    }
+    .footer {
+        font-size: 11px;
+        z-index: 10000;
+    }
+        #content {
+            margin-top: 3.2rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            margin-bottom: 4.5rem;
+        }
+      .page-header-left {
+        display: -webkit-inline-box;
+      }
+      .page-header-title {
+        font-size: 16px;
+      }
+      .font-size-sm {
+        font-size: 0.8rem;
+    }
+    .card-counter {
+        height: 6rem;
+    }
+    .card-counter-block .card-title {
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+    .card-connter-inner-body {
+        margin-top: -5.5rem;
+        padding: 1rem;
+    }
+    .card-counter-icon {
+        font-size: 1rem;
+        display: unset;
+    }
+    /* card */
+    .card-header h5 {
+        font-size: 1rem;
+    }
+    .card-header {
+        padding: .65rem .7rem;
+    }
+    .card-header .btn{
+        padding: .275rem .65rem;
+        font-size: .8rem;
+    }
+    .recent-record {
+        margin-bottom: 1.5rem;
+    }
+    /* table */
+    .react-bs-table-container table td {
+        font-size: 0.8rem;
+    }
+    .react-bs-table-container .table thead th {
+        font-size: .8rem;
+    }
+    .react-bs-table table {
+        margin-bottom: 0;
+        table-layout: inherit ! important;
+    }
+    /* Search */
+    #search-dropdown.show .dropdown-menu {
+        left: 16rem;
+    }
+    #search-dropdown .form-control {
+        padding: .5rem 1rem;
+        border: 0;
+        width: 15rem;
+    }
+    #search-dropdown .react-autosuggest__suggestions-container,
+    #search-dropdown .react-autosuggest__section-container{
+        width: 15rem;  
+    }
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+      #content {
+        margin-top: 4.7rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-bottom: 4.5rem;
+      }
+    }
+    

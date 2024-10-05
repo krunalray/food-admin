@@ -1,0 +1,16 @@
+
+.btn:hover:not(.btn-text), .btn:focus:not(.btn-text), .btn.focus {
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn-sm {
+  border: 1px solid transparent;
+  font-size: 11px;
+  line-height: 1.5;
+  border-radius: 0.42rem;
+}

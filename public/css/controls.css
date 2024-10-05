@@ -1,0 +1,23 @@
+/* checkbox */
+input[type="checkbox"] {
+    border: 0;
+    background-color: #eff2f5;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .45em;
+}
+input:checked {
+    background-color: #009ef7;
+}
+input:checked {
+    background-color: #009ef7;
+    border-color: #009ef7;
+}

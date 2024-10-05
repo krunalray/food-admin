@@ -1,0 +1,187 @@
+
+
+.text-muted {
+  color: #B5B5C3 ! important;
+}
+/* dashboard card  */
+.bg-danger {
+    background-color: #e07c00  !important;
+  }
+  .bg-primary {
+    background-color: #e07c00  !important;
+  }
+  
+  .bg-light-warning {
+    background-color: #fff4de !important;
+    color: #ffa800 !important;
+  }
+  .bg-light-primary {
+    background-color: #e1f0ff !important;
+    color: #e07c00 !important;
+  }
+  .bg-light-danger {
+    color: #F64E60 !important;
+    background-color: #FFE2E5 !important;
+  }
+  .bg-light-success {
+    color: #1BC5BD !important;
+    background-color: #C9F7F5 !important;
+  }
+  .bg-light-info {
+    color: #0d6efd;
+    background-color: #EEE5FF;
+  }
+  .text-danger {
+    color: #f64e60 !important;
+  }
+  .text-warning {
+    color: #ffa800 !important;
+  }
+  .text-success {
+    color: #1bc5bd !important;
+  }
+  .text-primary {
+    color: #e07c00 !important;
+  }
+  .badge.bg-light-danger {
+    background-color: #FFE2E5 !important;
+    color: #F64E60 !important;
+  }
+  /* .link  */
+  a:hover {
+    -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+a.text-hover-primary:hover {
+    color: #e07c00 !important;
+}
+a.text-hover-warning:hover {
+  color: #FFA800 !important;
+}
+a.text-hover-danger:hover {
+  color: #F64E60 !important;
+}
+a.text-hover-info:hover {
+  color: #0d6efd !important;
+}
+a.text-hover-success:hover {
+  color: #1BC5BD !important;
+}
+/* alert  */
+.alert-primary {
+  background-color: #C9F7F5;
+  border-color: transparent;
+  color: #1BC5BD;
+}
+.alert-danger {
+  background-color: #FFE2E5;
+  border-color: transparent;
+  color: #F64E60;
+}
+.alert-warning {
+  background-color: #FFF4DE;
+  border-color: transparent;
+  color: #EE9D01;
+}
+.alert-success {
+  background-color: #0d6efd;
+  border-color: transparent;
+  color: #ffffff;
+}
+/* button color */
+
+/* danger */
+.btn-danger {
+  color: #ffffff;
+  background-color: #F64E60;
+  border-color: #F64E60;
+}
+.btn-danger:hover, .btn-danger:focus {
+  color: #ffffff;
+  background-color: #EE2D41;
+  border-color: #EE2D41;
+}
+/* primary */
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #e07c00;
+  border-color: #e07c00;
+}
+.btn-primary:hover, .btn-primary:focus {
+  color: #FFFFFF;
+  background-color: #e07c00;
+  border-color: #e07c00;
+}
+/* info */
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #e07c00;
+  border-color: #e07c00;
+}
+
+/* success */
+.btn-success {
+  color: #ffffff;
+  background-color: #1BC5BD;
+  border-color: #1BC5BD;
+}
+.btn-success:hover, .btn-success:focus {
+  color: #ffffff;
+  background-color: #0BB7AF;
+  border-color: #0BB7AF;
+}
+/* warning */
+.btn-warning {
+  color: #ffffff;
+  background-color: #FFA800;
+  border-color: #FFA800;
+}
+.btn-warning:hover, .btn-warning:focus {
+  color: #ffffff;
+  background-color: #EE9D01;
+  border-color: #EE9D01;
+}
+/* light color */
+.btn-light-primary {
+  color: #e07c00;
+  background-color: #E1F0FF;
+  border-color: transparent;
+}
+.btn-light-primary:hover {
+  color: #FFFFFF;
+  background-color: #e07c00;
+  border-color: transparent;
+}
+.btn.btn-light-info {
+  color: #0d6efd;
+  background-color: #EEE5FF;
+  border-color: transparent;
+}
+.btn-light-info:hover {
+  color: #ffffff;
+    background-color: #0d6efd;
+    border-color: transparent;
+}
+/* badge */
+.badge-light-success {
+  color: #50cd89;
+  background-color: #e8fff3;
+}
+.badge-light-warning {
+  color: #ffc700;
+  background-color: #fff8dd;
+}
+.badge-light-primary {
+  color: #009ef7;
+  background-color: #f1faff;
+}
+.badge-light-danger {
+  color: #f1416c;
+  background-color: #fff5f8;
+}
+.badge-light-info {
+  color: #7239ea;
+  background-color: #f8f5ff;
+}

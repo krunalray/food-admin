@@ -1,0 +1,21 @@
+{
+    "user_id": 475,
+    "app_id": 32,
+    "user_group_id": 472,
+    "is_seller_user": 0,
+    "seller_id": 0,
+    "username": "admin@mysscrow.com",
+    "firstname": "Dixit",
+    "lastname": "Solanki",
+    "email": "admin@mysscrow.com",
+    "telephone": "9725259170",
+    "image": "32/32test/1-300x330.jpg",
+    "ip": "",
+    "status": 1,
+    "date_added": "2018-07-13T21:00:00.000Z",
+    "seller": {
+        "store_name": null,
+        "is_verify_email": null,
+        "logo": null
+    }
+}

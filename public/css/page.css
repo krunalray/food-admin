@@ -1,0 +1,42 @@
+/* dashboard page */
+.card-counter-block {
+    margin-bottom: 1.7rem;
+}
+/* theme page  */
+.alc-mockup-laptop-content {
+    position: absolute;
+    top: 6.8%;
+    left: 12.3%;
+    width: 75.1%;
+    height: 81.1%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.alc-mockup-phone {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 22%;
+}
+.alc-mockup-phone-content {
+    position: absolute;
+    top: 2.4%;
+    left: 4%;
+    width: 92.4%;
+    height: 96%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+.alc-mockup-laptop-content {
+    position: absolute;
+    top: 6.8%;
+    left: 12.3%;
+    width: 75.1%;
+    height: 81.1%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* home page builder  */

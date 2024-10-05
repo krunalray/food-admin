@@ -1,0 +1,53 @@
+.react-redux-modal .rrm-holder .rrm-shadow {
+    opacity: 0.2 !important;
+    background-color: #000000 !important;
+    -webkit-box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%) !important;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%) !important;
+    border: 0 solid rgba(0, 0, 0, 0.2) !important;
+    border-radius: 0.42rem !important;
+}
+.react-redux-modal .rrm-holder .scroll .rrm-content .rrm-title {
+    border-bottom: 1px solid #EBEDF3 !important;
+}
+.react-redux-modal .rrm-holder .scroll .rrm-content {
+    box-shadow: none !important;
+    background-color: #fff !important;
+}
+.modal-footer {
+    padding-bottom: 0 !important;
+    margin-top: 1rem !important;
+}
+    
+/* xlarge */
+.react-redux-modal .rrm-holder .scroll .rrm-content.m-xlarge {
+    width: 66rem;
+}
+.react-redux-modal .rrm-holder .scroll .rrm-content.m-xlarge .rrm-title .rr-title-actions {
+    width: 70%
+}
+.react-redux-modal .rrm-holder .scroll .rrm-content .rrm-title .rr-title-actions button {
+    color: #444444;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+.react-redux-modal .rrm-holder .scroll .rrm-content.m-large .rrm-title h2 {
+    width: 75%;
+    padding-right: 0;
+    font-weight: 500;
+}
+.react-redux-modal .rrm-holder .scroll .rrm-content .rrm-body {
+    border-radius: 5px;
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px);
+}
+.react-redux-modal .rrm-holder .scroll .rrm-content .rrm-title .rr-title-actions {
+    width: 22%;
+}
+.m-xxlarge {
+    width: 60%;
+  }
+  .m-xxlarge .rr-title-actions {
+      float: right !important;
+  }

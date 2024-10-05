@@ -1,0 +1,185 @@
+/* Grid */
+.react-bs-table table {
+  margin-bottom: 0;
+  table-layout: fixed;
+}
+.react-bs-table-container table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #3f4254;
+  background-color: transparent;
+}
+.react-bs-table-container .table>thead {
+  vertical-align: bottom;
+  background-color: #F3F6F9;
+  border-bottom: 0;
+}
+.table thead tr:first-child, 
+.table thead th:first-child {
+  border-top-left-radius: 0.42rem;
+  border-bottom-left-radius: 0.42rem;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+  --bs-table-accent-bg: transparent;
+  color: var(--bs-table-striped-color);
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: transparent;
+    color: var(--bs-table-striped-color);
+}
+.table-hover>tbody>tr:hover {
+  --bs-table-accent-bg: #f3f6f970;
+  color: var(--bs-table-hover-color);
+}
+.react-bs-table-container .table thead th {
+  font-weight: 700;
+  color: #3e454c;
+  font-size: .9rem;
+}
+.react-bs-table-container table td {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.table-bordered td,
+.table-bordered th {
+  border: none;
+}
+.react-bs-table-container table.table-hover tbody tr:hover {
+  background-color: rgb(243 246 249);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.react-bs-table-container .table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.react-bs-table-container .react-bs-table .table-bordered {
+  border-bottom: 0;
+  outline: 0!important;
+}
+.react-bs-table-bordered {
+  border: 0;
+  border-radius: 5px;
+}
+.react-bs-table-container .react-bs-table .card-header {
+  border-bottom: 0;
+}
+.react-bs-table-container .react-bs-table .table-bordered>:not(caption)>* {
+  border-width: 0px 0;
+  border-bottom: 0px solid #EBEDF3 ! important;
+}
+/* table  */
+.react-bs-table-container alca-daa-table {
+  box-shadow: 0px 0px 30px 0px rgba(82, 63, 105, 0.05);
+  border: 0;
+}
+.react-bs-table-container .table td, .table th {
+  /* padding: .75rem; */
+  vertical-align: middle;
+  border-bottom: 1px solid #e9ecef;
+}
+.react-bs-table .table-bordered>thead>tr>td, .react-bs-table .table-bordered>thead>tr>th {
+  border-bottom-width: 0px ! important;
+  font-family: var(--bs-font-sans-serif);
+}
+.table thead tr:last-child, .table thead th:last-child {
+  border-top-right-radius: 0.42rem;
+  border-bottom-right-radius: 0.42rem;
+}
+.table>:not(:last-child)>:last-child>* {
+  border-bottom-color: transparent ! important;
+}
+.card-header {
+    font-family: var(--bs-font-sans-serif);
+}
+.react-bs-table-container .btn {
+  border-radius: 0.42rem;
+  color: #3699FF;
+  background-color: #F3F6F9;
+  border-color: #F3F6F9;
+  box-shadow: 0 0 0px 0 rgb(0 0 0 / 16%), 0 2px 0px 0 rgb(0 0 0 / 12%);
+}
+.react-bs-table .form-control {
+  display: block;
+  width: 100% ! important;
+  border: 1px solid #E4E6EF;
+  border-radius: 0.42rem;
+}
+
+/* pagination */
+.pagination .page-link {
+  position: relative;
+  display: block;
+  color: #0d6efd;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0;
+}
+.pagination .page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #e07c00;
+  border-color: #e07c00;
+  border-radius: 5px;
+}
+.pagination .page-item:not(:first-child) .page-link {
+  margin-left: .4em;
+}
+
+.pagination .page-link:hover {
+  z-index: 2;
+  color: #024dbc;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+  border-radius: 5px;
+}
+.label-dot {
+  line-height: 6px;
+  min-height: 6px;
+  min-width: 6px;
+  height: 6px;
+  width: 6px;
+  display: inline-block;
+  font-size: 0 !important;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* Scroll css for menu and table   */
+    div,ol,pre,span,ul,nav{
+        scrollbar-width: unset;
+        scrollbar-color: 444;
+    }
+    div::-webkit-scrollbar,nav::-webkit-scrollbar,ol::-webkit-scrollbar,pre::-webkit-scrollbar,span::-webkit-scrollbar,ul::-webkit-scrollbar{
+        width:.4rem;
+        height:.4rem
+    }
+    div::-webkit-scrollbar-thumb,nav::-webkit-scrollbar-thumb,ol::-webkit-scrollbar-thumb,pre::-webkit-scrollbar-thumb,span::-webkit-scrollbar-thumb,ul::-webkit-scrollbar-thumb{
+        background-color:#eff2f5
+    }
+   nav::-webkit-scrollbar-thumb{
+      background-color:#41416e;
+  }
+  nav:hover::-webkit-scrollbar-thumb{
+    background-color:#41416e
+}
+    div:hover,ol:hover,nav:hover,pre:hover,span:hover,ul:hover{
+        scrollbar-color:#e9edf1 transparent
+    }
+    div:hover::-webkit-scrollbar-thumb,ol:hover::-webkit-scrollbar-thumb,pre:hover::-webkit-scrollbar-thumb,span:hover::-webkit-scrollbar-thumb,ul:hover::-webkit-scrollbar-thumb{
+        background-color:#e9edf1
+    }
+ /* en  Scroll css for menu and table   */
+
+ .react-bs-table .react-bs-container-footer>table>thead>tr>th .filter, .react-bs-table .react-bs-container-header>table>thead>tr>th .filter {
+  font-weight: 400;
+  font-size: .9em;
+}
+
+.table-bordered>:not(caption)>* {
+  border-width: 0px 0;
+}
+

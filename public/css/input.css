@@ -1,0 +1,283 @@
+.form-control {
+    border: 1px solid #EBEDF3 !important;
+}
+.tox:not([dir=rtl]) .tox-toolbar__group:not(:last-of-type) {
+    border-right: 1px solid#EBEDF3 !important;
+}
+.tox-tinymce {
+    border: 1px solid #EBEDF3 !important;
+    border-radius: 5px !important;
+}
+
+.tox .tox-tbtn:active,
+.tox .tox-tbtn:hover {
+    background: #c8cbcf !important;
+    border: 0;
+    box-shadow: none;
+    color: #3699FF !important;
+    background-color: #E1F0FF !important;
+    border-color: transparent;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+div.required .control-label:not(span):after, td.required:after, .required:after {
+    content: ' * ';
+    color: #F00;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.form-group {
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+textarea.form-control {
+    height: 150px;
+}
+/* image upload */
+
+
+.input-image-block {
+    position: relative;
+    border: 3px solid #ffffff;
+    -webkit-box-shadow: 0 0.5rem 1.5rem 0.5rem rgb(0 0 0 / 8%);
+    box-shadow: 0 0.5rem 1.5rem 0.5rem rgb(0 0 0 / 8%);
+    width: 120px;
+    height: 120px;
+    border-radius: 0.42rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  .input-image-block::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(195,207,216,0.3);
+    border-radius: 3px;
+  }
+  .input-image-content {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  .input-image-hover-overlay {
+    z-index: 3;
+    background: rgba(49,55,61,0.75);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+    border-radius: 3px;
+  }
+  
+  .input-image-overlay-actions {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .input-image-overlay-actions__link {
+    padding: 10px 6px;
+    display: block;
+    line-height: 0;
+    text-align: center;
+    color: #ffffff !important;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .input-image-block:hover .input-image-hover-overlay {
+    opacity: 1.0;
+  }
+  
+  .image-block-sm .input-image-block {
+    width: 5rem;
+    height: 5rem;
+  }
+
+ 
+.select-filter{
+  display:block;
+  width:100%;
+  height:calc(1.5em + .75rem + 2px);
+  padding:.375rem 1.75rem .375rem .75rem;
+  font-size:1rem;
+  font-weight:400;
+  line-height:1.5;
+  color:#495057;
+  vertical-align:middle;
+  background-color:#fff;
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat:no-repeat;
+  background-position:right .75rem center;
+  background-size:16px 12px;
+  border:1px solid #ced4da;
+  border-radius:.25rem;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none
+}
+/* input form  */
+.card-shadow {
+  -webkit-box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+  box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+  border: 0;
+}
+
+.form-control {
+    border: 1px solid #E4E6EF;
+    border-radius: 0.42rem;
+}
+.form-check-label {
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+}
+.form-check-input {
+  margin-right: 0.5rem;
+}
+.form-check-input {
+  margin-top: .25rem;
+  margin-left: -1.25rem;
+}
+.scrollbox {
+  background: #fff;
+  border: 1px solid #eee;
+  height: 15rem;
+  border-radius: 4px;
+  overflow-y: scroll;
+  width: auto;
+  padding: 10px;
+}
+
+
+/* tooltipps */
+
+/*admin side tooltip   30-01-2019 start*/
+.tooltipui {
+  position: relative;
+}
+
+.tooltipui-trigger {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.tooltipui-bubble {
+  min-width: 250px;
+  max-width: 350px;
+  position: absolute;
+  z-index: 10;
+}
+.tooltipui-bubble::after {
+  content: '';
+  position: absolute;
+}
+
+.tooltipui-top {
+  bottom: 100%;
+  left: 50%;
+  padding-bottom: 9px;
+  transform: translateX(-50%);
+}
+.tooltipui-top::after {
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltipui-bottom {
+  top: 100%;
+  left: 50%;
+  padding-top: 9px;
+  transform: translateX(-50%);
+}
+.tooltipui-bottom::after {
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltipui-left {
+  top: 50%;
+  right: 100%;
+  padding-right: 9px;
+  transform: translateY(-50%);
+}
+.tooltipui-left::after {
+  border-left: 9px solid rgba(0, 0, 0, 0.7);
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.tooltipui-right {
+  top: 50%;
+  left: 100%;
+  padding-left: 9px;
+  transform: translateY(-50%);
+}
+.tooltipui-right::after {
+  border-right: 9px solid rgba(0, 0, 0, 0.7);
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.tooltipui-message {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  color: #fff;
+  font-size: .75rem;
+  line-height: 1.4;
+  padding: .75em;
+  text-align: center;
+}
+.tooltipui .fa {
+  margin-left: 4px;
+}
+/*admin side tooltip 30-01-2019 close*/
+/* calender control */
+
+.react-date-picker__wrapper {
+  padding: .4rem .5rem;
+  width: 11.7rem;
+  background-color: #fff;
+  border-radius: .75rem;
+}
+
+.react-date-picker__wrapper {
+  display: flex;
+  border: thin solid #dfdfeb !important;
+}
